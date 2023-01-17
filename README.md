@@ -15,11 +15,11 @@ Running protocol simulation:
 Run experiment_count_query_steps/main.py file to run protocol simulation. Then run experiment_count_query_steps/result_dump/collate_csvs.py to collect experiment results and save in csv format. Then run experiment_count_query_steps/plot_count_matrix.ipynb to plot results.</br></br>
 
 Running protocol simulation to count number of steps in key query in the network:
-![Running protocol simulation](img/count_steps_of_query/terminal_1.png)
+![Running protocol simulation](img/count_steps_of_query/terminal_1.png)</br></br>
 ![Running protocol simulation](img/count_steps_of_query/terminal_2.png)
 </br></br>
 Plotting experiment results:</br>
-![Running protocol simulation](img/count_steps_of_query/graph_1.png)
+![Running protocol simulation](img/count_steps_of_query/graph_1.png)</br></br>
 ![Running protocol simulation](img/count_steps_of_query/graph_2.png)
 
 
