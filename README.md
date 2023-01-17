@@ -16,19 +16,23 @@ Run experiment_count_query_steps/main.py file to run protocol simulation. Then r
 
 Running protocol simulation to count number of steps in key query in the network:
 ![Running protocol simulation](img/count_steps_of_query/terminal_1.png)
-![Running protocol simulation](img/count_steps_of_query/terminal_2.png)</br></br>
+![Running protocol simulation](img/count_steps_of_query/terminal_2.png)
+</br></br>
 Plotting experiment results:
 ![Running protocol simulation](img/count_steps_of_query/graph_1.png)
-![Running protocol simulation](img/count_steps_of_query/graph_2.png)</br></br>
+![Running protocol simulation](img/count_steps_of_query/graph_2.png)
 
-Running protocol simulation to count key distribution between nodes in the peer to peer network:
-![Running protocol simulation](img/key_distribution_between_nodes/terminal.png)</br></br>
-
-Plotting experiment results: Distribution of 2<sup>14</sup> keys among 2<sup>8</sup> nodes:
-![Running protocol simulation](img/key_distribution_between_nodes/graph.png)</br></br>
 
 
 <b> Experiment to count key distribution between nodes: </b></br>
 Run experiment_key_distribution_between_nodes/main.py file. This experiment generates 16384 keys in the peer to peer network that needs to be stored among 256 nodes. Distribtuion of keys between nodes saved as text file result in the file experiment_key_distribution_between_nodes/key_distribution_keys_16384_nodes_256_iter_0. Move this file to experiment_key_distribution_between_nodes/result_dump folder. Then run plot_key_histogram_working.ipynb file to plot the graph of 16384 key distribution between 256 nodes in the network.</br></br>
+
+Running protocol simulation to count key distribution between nodes in the peer to peer network:
+![Running protocol simulation](img/key_distribution_between_nodes/terminal.png)
+</br></br>
+
+Plotting experiment results: Distribution of 2<sup>14</sup> keys among 2<sup>8</sup> nodes:
+![Running protocol simulation](img/key_distribution_between_nodes/graph.png)
+</br></br>
 
 We have not written any code to conduct those Chord protocol simulation experiments. Instead we found and studied already implemented solution and run the code to get our own results and plot our own graphs. Also, we configured our own parameters for experiment setup such as number of Nodes in the system, number of keys distributed between nodes, number of iterations in simulations, etc. Reference to the original code: https://bitbucket.org/felixy12/cos518_project/src/master/Chord_Python/src_2/, reference to the article regarding this project from authors: https://medium.com/princeton-systems-course/chord-dht-in-python-b8b8985cb80e.
