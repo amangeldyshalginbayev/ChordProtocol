@@ -18,7 +18,7 @@ Running protocol simulation to count number of steps in key query in the network
 ![Running protocol simulation](img/count_steps_of_query/terminal_1.png)
 ![Running protocol simulation](img/count_steps_of_query/terminal_2.png)
 </br></br>
-Plotting experiment results:
+Plotting experiment results:</br>
 ![Running protocol simulation](img/count_steps_of_query/graph_1.png)
 ![Running protocol simulation](img/count_steps_of_query/graph_2.png)
 
